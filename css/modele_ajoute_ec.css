@@ -1,0 +1,107 @@
+
+
+/* G�n�ral */
+body {
+    color: black;
+    background: white;
+}
+a {
+	color: #FF6533;
+}
+a:hover, a:focus {
+	color: #FF4C00;
+}
+strong {
+	color: #A1B55D;
+}
+
+/* Navigation */
+#navigation {
+    background: #e5e5e5; 
+}
+#navigation a {
+	color: #3366ff;
+}
+#navigation a:hover, #navigation a:focus {
+	color: #FF4C00;
+}
+
+/* Contenu principal */
+#contenu {
+	color: black;
+        background: white;
+        border-top-style: solid;
+        border-top-width: thin;
+}
+#contenu a {
+	color: #332510;
+}
+#contenu a:hover, #contenu a:focus {
+	color: #6E5122;
+}
+#contenu strong {
+	color: #181A12;
+}
+/* --- POSITIONNEMENT --- */
+
+/* Page */
+body {
+	padding: 20px 50px; /* Voir -> Note 1 ci-dessous */
+}
+
+/* En-t�te */
+#entete {
+	padding: 20px 0;
+}
+#entete h1 {
+	margin: 0;
+}
+#entete h1 img {
+	float: left;
+	margin: 7px 20px 10px 0;
+}
+#entete .sous-titre {
+	margin: 4px 0 15px 0;
+}
+#entete a img{
+    position: absolute;
+    right: 50px;
+    width: 30px;
+}
+/* Menu de navigation */
+#navigation {
+	width: 18%;
+	float: left; /* -> 2 */
+}
+#navigation ul {
+	margin: 0;
+	padding: 20px 10px;
+	list-style: none;
+}
+#navigation a {
+	display: block;
+	height: 1%; /* -> 3 */
+	padding: 6px 6px 6px 10px;
+	line-height: 1.5;
+	font-size: .9em;
+	text-decoration: none;
+}
+
+/* Contenu */
+#contenu {
+	margin-left: 20%; /* -> 4 */
+	margin-bottom: 20px;
+	padding: 10px 20px;
+}
+#contenu > :first-child {
+	margin-top: 10px;
+}
+#contenu table{
+    font-family: inherit;
+}
+
+
+/* Mention de paternit� */
+#copyright {
+	margin-right: 20%;
+}

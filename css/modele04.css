@@ -1,0 +1,67 @@
+
+body {
+	color: #F0E39E;
+	background: white;
+}
+
+#entete {
+	padding: 20px 50px;
+}
+#entete h3 {
+	margin: 0;
+        color: #666666;
+}
+#entete img {
+	float: left;
+	margin: 10px 100px 10px auto;
+}
+#entete .sous-titre {
+	margin: 4px 0 15px 0;
+        color: #000000; 
+}
+
+#identification{
+    width: 240px;
+    margin: auto;
+}
+
+#identification form .form-element {
+    color: #000000; 
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#identification form input {
+    width: 100%;
+}
+
+#identification form #form-actions {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#identification form #button-submit {
+    margin-left: 15px;
+}
+
+#identification form #button-reset {
+    margin-right: 0;
+}
+
+#identification form #form-title{
+    margin-bottom: 25px;
+    background-color: #ccccff;
+    text-align: center;
+}
+
+#erreur_login{
+   width: 300px;
+   margin : 25px auto 25px auto;
+   padding: 8px;
+   border-color: #ff9999;
+   background: #ffcccc;
+   color: #ff3333;
+   text-align: center;
+   font-size: 0.9em;
+}
